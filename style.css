@@ -1,0 +1,56 @@
+        body{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            overflow: auto;
+        }
+        form, .forms{
+            display: block;
+            border: none;
+        }
+        input, textarea, button{
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        input{
+            height: 30px;
+            width: 300px;
+            border-radius: 8px;
+            outline: none;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        label{
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+            font-size: 20px;
+        }
+        textarea{
+            width: 300px;
+            height: 78px;
+            border-radius: 8px;
+            outline: none;
+            text-align: center;
+            line-height: 78px;
+            overflow:  hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        button{
+            background: #4ea0e0;
+            width: 100px;
+            height: 50px;
+            border-radius: 15px;
+            outline: none;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        button:hover{
+            background: #3e97dc;
+        }
+        button:active{
+            box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        }
